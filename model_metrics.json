@@ -1,0 +1,42 @@
+{
+  "source": "LendingClub",
+  "cohort_counts": {
+    "train": 100422,
+    "validation": 162570,
+    "test": 283026
+  },
+  "selected_threshold": 0.2,
+  "logistic": {
+    "roc_auc": 0.6407625488256977,
+    "average_precision": 0.2223030562018021,
+    "brier": 0.12324864298238607
+  },
+  "base_rate_model": {
+    "roc_auc": 0.5,
+    "average_precision": 0.14886264866125373,
+    "brier": 0.1273580641289527
+  },
+  "cohort_chargeoff_rates": {
+    "2013": 0.12325984346059628,
+    "2014": 0.13726394783785445,
+    "2015": 0.14886264866125373
+  },
+  "logistic_validation": {
+    "roc_auc": 0.63903341368403,
+    "average_precision": 0.2056978206667876,
+    "brier": 0.11523969815424807
+  },
+  "challenger": {
+    "validation": {
+      "roc_auc": 0.6461871508916496,
+      "average_precision": 0.21169975452078793,
+      "brier": 0.11489679233333307
+    },
+    "holdout": {
+      "roc_auc": 0.650697155146196,
+      "average_precision": 0.2315987673296564,
+      "brier": 0.12289194860939841
+    },
+    "selected_threshold": 0.2
+  }
+}
