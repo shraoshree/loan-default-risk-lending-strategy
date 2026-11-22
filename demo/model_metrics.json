@@ -1,0 +1,19 @@
+{
+  "source": "Synthetic demo",
+  "cohort_counts": {
+    "train": 4036,
+    "validation": 3890,
+    "test": 4074
+  },
+  "selected_threshold": 0.15,
+  "logistic": {
+    "roc_auc": 0.8155086024246426,
+    "average_precision": 0.39849867782327897,
+    "brier": 0.09560610159696019
+  },
+  "base_rate_model": {
+    "roc_auc": 0.5,
+    "average_precision": 0.1330387825233186,
+    "brier": 0.11540211047028728
+  }
+}
